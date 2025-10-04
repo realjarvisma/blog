@@ -7,6 +7,20 @@ export const userConfig: Partial<UserConfig> = {
     author: 'Jarvis Ma',
     description: 'A blog about programming, technology, and life.',
     website: 'https://patrickma.vercel.app/',
+    navLinks: [
+      {
+        name: 'Archive',
+        href: '/archive',
+      },
+      {
+        name: 'Gallery',
+        href: 'https://gallery.chao.cam',
+      },
+      {
+        name: 'About',
+        href: '/about',
+      },
+    ],
     socialLinks: [
       {
         name: 'github',
