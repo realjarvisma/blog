@@ -2,11 +2,11 @@ import type { UserConfig } from '~/types'
 
 export const userConfig: Partial<UserConfig> = {
   site: {
-    title: 'Bikini Bottom',
-    subtitle: 'Tech & Life Adventures',
+    title: '評價世界',
+    subtitle: ' Jarvis',
     author: 'Jarvis Ma',
-    description: 'Exploring the depths of technology, sharing code adventures, and documenting life under the sea of innovation',
-    website: 'https://blog-realjarvisma.vercel.app/',
+    description: 'A blog about programming, technology, and life.',
+    website: 'https://patrickma.vercel.app/',
     socialLinks: [
       {
         name: 'github',
@@ -29,5 +29,9 @@ export const userConfig: Partial<UserConfig> = {
   },
   appearance: {
     locale: 'en-us',
+    fonts: {
+      header: '"Noto Serif SC","Source Han Serif SC","Source Han Serif TC",serif',
+      ui: '"Noto Serif SC","Source Han Serif SC","Source Han Serif TC",serif',
+    },
   },
 }
